@@ -1,29 +1,4 @@
-# ToDo App
 
-Welcome to the ToDo App, a simple task management web application developed using HTML, CSS, and JavaScript. This app allows users to add tasks, mark them as complete, and delete tasks as needed. The clean and straightforward interface provides an efficient way to organize and manage your tasks.
-
-## Features:
-
-1. **Add Task:** Users can add new tasks by entering task details and clicking the "Add" button.
-
-2. **Mark as Complete:** Tasks can be marked as complete by clicking on the corresponding checkbox.
-
-3. **Delete Task:** Unwanted tasks can be deleted by clicking the "Delete" button associated with each task.
-
-## Technologies Used:
-
-- **HTML:** Provides the structure for the web pages and content.
-- **CSS:** Styles the project for a clean and user-friendly design.
-- **JavaScript:** Adds interactivity and dynamic behavior to the application.
-
-## How to Use:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/todo-app.git
-
-markdown
-Copy code
 # ToDo App
 
 Welcome to the ToDo App, a simple task management web application developed using HTML, CSS, and JavaScript. This app allows users to add tasks, mark them as complete, and delete tasks as needed. The clean and straightforward interface provides an efficient way to organize and manage your tasks.
