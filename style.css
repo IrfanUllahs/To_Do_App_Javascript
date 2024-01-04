@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container {
+  border-radius: 10px;
+  /* padding: 1vw; */
+ 
+  /* border: 1px solid white; */
+  /* height: 60%; */
+  width: 550px;
+  background-color: rgb(65, 60, 60);
+}
+ul li {
+  list-style: none;
+  color: #2af598;
+  font-size: 1.8vw;
+}
+
+.input {
+  height: 20%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: rgb(65, 60, 60);
+
+  width: 550px;
+}
+.input h2{
+  color: rgb(212, 204, 204);
+}
+.action{
+  display: flex;
+   gap: 20px;
+   height: 70%;
+}
+
+
+#taskID {
+  width: 380px;
+  
+  border: none;
+  height: 80%;
+  border-bottom: 2px solid rgb(121, 116, 116);
+  background-color: transparent;
+  border-radius: 10px;
+  padding-left: 5px;
+  color: rgb(195, 188, 188);
+  font-size: 2vw;
+}
+#taskID:focus{
+  outline: none;
+}
+button {
+  border: none;
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+
+  font-size: 3vw;
+  border-radius: 10px;
+  padding: 0 5px;
+  height: 80%;
+  width: 110px;
+  color: white;
+  font-weight: bold;
+}
+.done {
+  text-decoration: line-through;
+}
+.li-item{
+  position: relative;
+  
+  text-decoration: line-through;
+}
+/* .li-item::before{
+  content: '';
+  position: absolute;
+  background-image: url(
+  'my_web_DEV/images/checked.png'
+
+  );
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 40%;
+  width: 5%;
+  top: 8px;
+  left: 2px;
+} */
+ul li{
+  position: relative;
+  padding: 10px;
+  user-select: none;
+}
+ul  li span{
+  position: absolute;
+  right: 0;
+ 
+ 
+  padding: 5px;
+  border-radius: 15px;
+  
+}
+ul li span:hover{
+  background-color: rgb(21, 184, 184);
+}
+
+@media screen and (max-width:570px) and (min-width:440px) {
+  .input, .container{
+  width: 400px;
+  }
+  #taskID{
+    width: 250px;
+  }
+} 
+@media screen and (max-width:430px) {
+  .input, .container{
+    width: 300px;
+    }
+    #taskID{
+      width: 190px;
+    }
+    button{
+      width: 80px;
+    }
+    ul li,#taskID{
+      font-size: 20px;
+    }
+}
